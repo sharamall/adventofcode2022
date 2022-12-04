@@ -11,4 +11,5 @@ file.each_line do |l|
     sum += l.to_i
   end
 end
+file.close
 puts max

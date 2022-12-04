@@ -39,4 +39,5 @@ file.each_line do |l|
     i = 0
   end
 end
+file.close
 puts sum

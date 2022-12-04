@@ -38,4 +38,5 @@ file.each_line do |l|
     end
   end
 end
+file.close
 puts score
